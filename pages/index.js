@@ -27,6 +27,35 @@ export default function Home() {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="0 days" />
         <meta name="author" content="Anirudh Soni" />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://linktree.anirudhsoni.in/" />
+        <meta
+          property="og:title"
+          content="Anirudh Soni | Linktree | Web Developer"
+        />
+        <meta
+          property="og:description"
+          content=" Hi, I am Anirudh Soni a web developer from Rajasthan who focuses on user interfaces, including rich experiences, design."
+        />
+        <meta property="og:image" content="/assets/images/banner.png" />
+
+        {/* <!-- Twitter --/> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://linktree.anirudhsoni.in/"
+        />
+        <meta
+          property="twitter:title"
+          content="Anirudh Soni | Linktree | Web Developer"
+        />
+        <meta
+          property="twitter:description"
+          content=" Hi, I am Anirudh Soni a web developer from Rajasthan who focuses on user interfaces, including rich experiences, design."
+        />
+        <meta property="twitter:image" content="/assets/images/banner.png" />
       </Head>
       <Background />
       <Header />

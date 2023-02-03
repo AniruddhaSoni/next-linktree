@@ -12,7 +12,12 @@ export default function Links() {
         <ul className="w-full flex flex-col gap-2">
           {linksdata.map((ele, index) => {
             return (
-              <Link key={ele.name + index} name={ele.name} svg={ele.svg} />
+              <Link
+                key={ele.name + index}
+                name={ele.name}
+                svg={ele.svg}
+                tooltip={ele.tooltip}
+              />
             );
           })}
         </ul>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Link(props) {
   return (
-    <li>
+    <li className="tooltip tooltip-primary" data-tip={props.tooltip}>
       <a
         href={props.link}
         target="blank"
@@ -17,7 +17,7 @@ export default function Link(props) {
         >
           <path fill="white" d={props.svg} />
         </svg>
-        <p className="flex-grow">{props.name}</p>
+        <p className="flex-grow text-left">{props.name}</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
