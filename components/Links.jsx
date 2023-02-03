@@ -17,6 +17,7 @@ export default function Links() {
                 name={ele.name}
                 svg={ele.svg}
                 tooltip={ele.tooltip}
+                link={ele.link}
               />
             );
           })}
