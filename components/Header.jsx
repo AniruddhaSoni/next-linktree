@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Header() {
@@ -12,9 +13,13 @@ export default function Header() {
       </div>
       <div className="avatar">
         <div className="w-24 rounded-xl bg-white">
-          <img
-            src="/assets/images/avatar.jpeg
-          "
+          <Image
+            height={256}
+            width={256}
+            alt="avatar"
+            src="/assets/images/avatar.jpeg"
+            loading="lazy"
+            quality={30}
           />
         </div>
       </div>
