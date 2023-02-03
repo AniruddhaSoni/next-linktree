@@ -23,7 +23,7 @@ export default function Home() {
           content="Full-Stack Web Developer, Web Designer, MERN Stack, LAMP Stack, Portfolio, Anirudh, Soni"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="0 days" />
         <meta name="author" content="Anirudh Soni" />
