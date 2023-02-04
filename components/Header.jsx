@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="w-11/12  md:w-8/12 lg:w-1/3 flex mx-auto items-center justify-between bg-white/20 p-6 py-4 rounded-xl backdrop-blur-sm mt-8">
+    <header className="w-11/12  md:w-8/12 lg:w-1/3 flex mx-auto items-center justify-between bg-gray-500/30 p-6 py-4 rounded-xl backdrop-blur-[2px] mt-8">
       <div className="text-left">
         <p className="text-3xl font-bold">Anirudh Soni</p>
         <p>

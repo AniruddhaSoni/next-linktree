@@ -3,6 +3,7 @@ import About from "../components/About";
 import Background from "../components/Background";
 import Header from "../components/Header";
 import Links from "../components/Links";
+import Spotify from "../components/Spotify";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center gap-8 ">
@@ -60,6 +61,7 @@ export default function Home() {
       <Background />
       <Header />
       <About />
+      <Spotify />
       <Links />
       <footer className="py-8 text-lg">
         &lt;/&gt; by{" "}
