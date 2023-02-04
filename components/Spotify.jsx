@@ -6,8 +6,7 @@ export default function Spotify() {
   useEffect(() => {
     fetch("https://api.spotify.com/v1/me/player/recently-played?limit=1", {
       headers: {
-        Authorization:
-          "Bearer BQBoo-J9sF42bRaUaIlFk0cMcgOZ5qxugcoy10iW9syIGjD62cdciDkus2JpSxsbXzBADiVJhGROGCghry58Z6z_EKS2Axrh1lQbpbMVBEtDRSjTpbgsnFvrjPMPw7xqVNgcL7m89mIO4x3zVbuA0OeidQMd1VCzCX1VA3IRpJtvd9lpstA7dpiB76tks8DZudwjgbQ7jQ",
+        Authorization: process.env.NEXT_PUBLIC_SPOTIFY_KEY,
       },
     })
       .then((data) => data.json())
