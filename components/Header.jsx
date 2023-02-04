@@ -8,7 +8,7 @@ export default function Header() {
         <p className="text-3xl font-bold">Anirudh Soni</p>
         <p>
           <strong>MERN</strong> and <strong>LAMP</strong> stack Web{" "}
-          <strong>Develoeper</strong> and <strong>Designer</strong>.
+          <strong>Developer</strong> and <strong>Designer</strong>.
         </p>
       </div>
       <div className="avatar">
