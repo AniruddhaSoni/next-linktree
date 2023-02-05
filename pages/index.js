@@ -61,7 +61,7 @@ export default function Home() {
       <Background />
       <Header />
       <About />
-      <Spotify />
+      {/* <Spotify /> */}
       <Links />
       <footer className="py-8 text-lg">
         &lt;/&gt; by{" "}
